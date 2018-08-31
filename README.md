@@ -4,10 +4,10 @@
 
 This is the code repository for [Java Projects - Second Edition](https://www.packtpub.com/application-development/java-projects-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789131895 ), published by Packt.
 
-**Learn how to build scalable, resilient, and effective applications in Java that suit your software requirements.**
+**Learn the fundamentals of Java 11 programming by building industry grade practical projects**
 
 ## What is this book about?
-Java is one of the most commonly used software languages by programmers and developers. In this book, you’ll learn the new features of Java 11 quickly and experience a simple and powerful approach to software development. You’ll see how to use the Java runtime tools, understand the Java environment, and create a simple namesorting Java application. Further on, you'll learn about advanced technologies that Java delivers, such as web programming and parallel computing, and will develop a mastermind game. Moving on, we provide more simple examples, to build a foundation before diving into some complex data structure problems that will solidify your Java 11 skills. With a special focus on the features of new projects: Project Valhalla, Project Panama, Project Amber, and Project Loom, this book will help you get employed as a top-notch Java developer. By the end of the book, you’ll have a firm foundation to continue your journey toward becoming a professional Java developer.
+Java is one of the most commonly used software languages by programmers and developers. In this book, youâ€™ll learn the new features of Java 11 quickly and experience a simple and powerful approach to software development. Youâ€™ll see how to use the Java runtime tools, understand the Java environment, and create a simple namesorting Java application. Further on, you'll learn about advanced technologies that Java delivers, such as web programming and parallel computing, and will develop a mastermind game. Moving on, we provide more simple examples, to build a foundation before diving into some complex data structure problems that will solidify your Java 11 skills. With a special focus on the features of new projects: Project Valhalla, Project Panama, Project Amber, and Project Loom, this book will help you get employed as a top-notch Java developer. By the end of the book, youâ€™ll have a firm foundation to continue your journey toward becoming a professional Java developer.
 
 This book covers the following exciting features:
 * Compile, package, and run a program using a build management tool 
@@ -75,5 +75,4 @@ Peter Verhas is a senior software engineer and software architect with an electr
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
-
 
