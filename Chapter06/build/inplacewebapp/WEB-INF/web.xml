@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- START SNIPPET webxml_Mastermind -->
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+    <servlet>
+        <display-name>HelloWorldServlet</display-name>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-class>packt.java11.mastermind.servlet.HelloWorld</servlet-class>
+    </servlet>
+    <servlet>
+        <display-name>Mastermind</display-name>
+        <servlet-name>Mastermind</servlet-name>
+        <servlet-class>packt.java11.mastermind.servlet.Mastermind</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Mastermind</servlet-name>
+        <url-pattern>/master</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+<!-- END SNIPPET -->

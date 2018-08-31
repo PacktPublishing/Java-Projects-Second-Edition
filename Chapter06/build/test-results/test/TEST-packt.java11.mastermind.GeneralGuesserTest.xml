@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="packt.java11.mastermind.GeneralGuesserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-29T11:58:34" hostname="EPCHZURW0149" time="0.005">
+  <properties/>
+  <testcase name="generateAllGuesses" classname="packt.java11.mastermind.GeneralGuesserTest" time="0.005"/>
+  <system-out><![CDATA[13:58:34.293 [Test worker] DEBUG packt.java11.mastermind.Table - table is created with 4 columns and packt.java11.mastermind.ColorManager@1802cf70 colorManager
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

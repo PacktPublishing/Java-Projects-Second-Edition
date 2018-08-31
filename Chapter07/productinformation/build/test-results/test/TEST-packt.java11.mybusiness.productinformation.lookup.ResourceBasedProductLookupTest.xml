@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="packt.java11.mybusiness.productinformation.lookup.ResourceBasedProductLookupTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-30T14:24:25" hostname="EPCHZURW0149" time="0.023">
+  <properties/>
+  <testcase name="queryFindsMultipleTitles" classname="packt.java11.mybusiness.productinformation.lookup.ResourceBasedProductLookupTest" time="0.023"/>
+  <system-out><![CDATA[2018-08-30 16:24:25.966  INFO 12508 --- [    Test worker] p.j.m.p.l.ResourceBasedProductLookup     : query is title=D&title=B
+2018-08-30 16:24:25.972 ERROR 12508 --- [    Test worker] p.j.m.p.l.ResourceBasedProductLookup     : key: title value:D id:123
+2018-08-30 16:24:25.973 ERROR 12508 --- [    Test worker] p.j.m.p.l.ResourceBasedProductLookup     : key: title value:D id:124
+2018-08-30 16:24:25.975 ERROR 12508 --- [    Test worker] p.j.m.p.l.ResourceBasedProductLookup     : key: title value:D id:125
+2018-08-30 16:24:25.977 ERROR 12508 --- [    Test worker] p.j.m.p.l.ResourceBasedProductLookup     : key: title value:B id:123
+2018-08-30 16:24:25.978 ERROR 12508 --- [    Test worker] p.j.m.p.l.ResourceBasedProductLookup     : key: title value:B id:124
+2018-08-30 16:24:25.986 ERROR 12508 --- [    Test worker] p.j.m.p.l.ResourceBasedProductLookup     : key: title value:B id:125
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

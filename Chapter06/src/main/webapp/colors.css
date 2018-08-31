@@ -1,0 +1,43 @@
+.color0 {
+    background: red;
+    width : 20px;
+    height: 20px;
+    float:left
+}
+.color1 {
+    background-color: green;
+    width : 20px;
+    height: 20px;
+    float:left
+}
+.color2 {
+    background-color: blue;
+    width : 20px;
+    height: 20px;
+    float:left
+}
+.color3 {
+    background-color: orange;
+    width : 20px;
+    height: 20px;
+    float:left
+}
+.color4 {
+    background-color: yellow;
+    width : 20px;
+    height: 20px;
+    float:left
+}
+.color5 {
+    background-color: cyan;
+    width : 20px;
+    height: 20px;
+    float:left
+}
+
+.spacer {
+    background-color: white;
+    width : 10px;
+    height: 20px;
+    float:left
+}

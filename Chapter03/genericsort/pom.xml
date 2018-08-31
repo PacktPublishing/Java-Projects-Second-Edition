@@ -1,0 +1,96 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>packt.java189fundamentals</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>sortParentProject</name>
+    <scm>
+        <connection>scm:svn:file:///Software/nobackup/svnrepo/multimodule/trunk</connection>
+        <developerConnection>scm:svn:file:///Software/nobackup/svnrepo/multimodule/trunk</developerConnection>
+    </scm>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <!-- START SNIPPET ch03_dependencyManagement -->
+    <dependencyManagement>
+        <dependencies>
+    <!-- SNIPPET SKIP TILL "<!\-\- ... \-\->" -->
+            <dependency>
+                <groupId>packt.java189fundamentals</groupId>
+                <artifactId>SortSupportClasses</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>packt.java189fundamentals</groupId>
+                <artifactId>SortInterface</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>packt.java189fundamentals</groupId>
+                <artifactId>quick</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <!-- ... -->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <!-- END SNIPPET -->
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-scm-plugin</artifactId>
+                    <version>1.2</version>
+                </plugin>
+                <!-- START SNIPPET mvn_compiler_plugin_config -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.7.0</version>
+                    <configuration>
+                        <source>1.10</source>
+                        <target>1.10</target>
+                    </configuration>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.ow2.asm</groupId>
+                            <artifactId>asm</artifactId>
+                            <version>6.1.1</version> <!-- Use newer version of ASM -->
+                        </dependency>
+                    </dependencies>
+                </plugin>
+                <!-- END SNIPPET -->
+            </plugins>
+        </pluginManagement>
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.3.2</version>
+                <inherited>true</inherited>
+                <configuration>
+                    <tagBase>file:///Software/nobackup/svnrepo/multimodule/releases/</tagBase>
+                    <releaseProfiles>multimodule-tag-modules</releaseProfiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <!-- START SNIPPET pom_xml_modules -->
+    <modules>
+        <module>SortSupportClasses</module>
+        <module>SortInterface</module>
+        <module>bubble</module>
+        <module>quick</module>
+        <module>Main</module>
+    </modules>
+    <!-- END SNIPPET -->
+</project>

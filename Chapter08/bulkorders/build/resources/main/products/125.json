@@ -1,0 +1,7 @@
+{
+  "id" : "125",
+  "title": "Bar Stool",
+  "description": "another furniture",
+  "weight": "300",
+  "size": [ "20", "20", "2" ]
+}

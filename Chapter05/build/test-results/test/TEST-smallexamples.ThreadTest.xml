@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="smallexamples.ThreadTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-05-08T10:09:47" hostname="EPCHZURW0033" time="0.001">
+  <properties/>
+  <testcase name="printMainThreadName" classname="smallexamples.ThreadTest" time="0.0"/>
+  <testcase name="printAllThreads" classname="smallexamples.ThreadTest" time="0.001"/>
+  <system-out><![CDATA[Test worker
+main
+Test worker
+/127.0.0.1:50847 to /127.0.0.1:50846 workers Thread 2
+/127.0.0.1:50847 to /127.0.0.1:50846 workers Thread 3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="packt.java11.mastermind.RowTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-29T11:58:34" hostname="EPCHZURW0149" time="0.009">
+  <properties/>
+  <testcase name="allButOneColorsAndPositionsMatch" classname="packt.java11.mastermind.RowTest" time="0.002"/>
+  <testcase name="twoColorsWrongPositionOtherGoodPosition" classname="packt.java11.mastermind.RowTest" time="0.001"/>
+  <testcase name="allColorsAndPositionsMatch" classname="packt.java11.mastermind.RowTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

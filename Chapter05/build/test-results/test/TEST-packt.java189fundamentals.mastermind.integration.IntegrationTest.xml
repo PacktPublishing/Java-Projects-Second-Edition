@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="packt.java189fundamentals.mastermind.integration.IntegrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-08T10:09:47" hostname="EPCHZURW0033" time="0.388">
+  <properties/>
+  <testcase name="testSimpleGame" classname="packt.java189fundamentals.mastermind.integration.IntegrationTest" time="0.388"/>
+  <system-out><![CDATA[456789 4/0
+
+543210 0/2
+987601 0/4
+896732 2/2
+698754 1/5
+856974 2/4
+496875 2/4
+895476 0/6
+456798 4/2
+456789 6/0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

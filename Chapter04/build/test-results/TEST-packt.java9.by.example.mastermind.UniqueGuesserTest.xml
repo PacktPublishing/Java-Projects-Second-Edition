@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="packt.java9.by.example.mastermind.UniqueGuesserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-08-31T16:21:30" hostname="MacBook-Pro.local" time="0.002">
+  <properties/>
+  <testcase name="generateAllGuesses" classname="packt.java9.by.example.mastermind.UniqueGuesserTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

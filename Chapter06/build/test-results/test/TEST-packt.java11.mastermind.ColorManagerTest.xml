@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="packt.java11.mastermind.ColorManagerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-29T11:58:33" hostname="EPCHZURW0149" time="0.019">
+  <properties/>
+  <testcase name="thereIsAFirstColor" classname="packt.java11.mastermind.ColorManagerTest" time="0.009"/>
+  <testcase name="noColorHasNoNextColor" classname="packt.java11.mastermind.ColorManagerTest" time="0.006"/>
+  <testcase name="noNextColorIsNullWhenThereIsOne" classname="packt.java11.mastermind.ColorManagerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

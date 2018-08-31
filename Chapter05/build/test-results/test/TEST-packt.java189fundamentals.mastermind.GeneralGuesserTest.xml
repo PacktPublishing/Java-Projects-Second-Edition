@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="packt.java189fundamentals.mastermind.GeneralGuesserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-08T10:09:47" hostname="EPCHZURW0033" time="0.01">
+  <properties/>
+  <testcase name="generateAllGuesses" classname="packt.java189fundamentals.mastermind.GeneralGuesserTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

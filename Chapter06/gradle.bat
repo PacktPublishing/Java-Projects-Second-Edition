@@ -1,0 +1,1 @@
+@"c:\Program Files\gradle-4.8.1\bin\gradle" %*

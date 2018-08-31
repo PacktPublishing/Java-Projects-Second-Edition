@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="packt.java11.mybusiness.productinformation.ProductInformationControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-30T14:24:25" hostname="EPCHZURW0149" time="0.255">
+  <properties/>
+  <testcase name="noParamGreetingShouldReturnDefaultMessage" classname="packt.java11.mybusiness.productinformation.ProductInformationControllerTest" time="0.087"/>
+  <testcase name="paramGreetingShouldReturnTailoredMessage" classname="packt.java11.mybusiness.productinformation.ProductInformationControllerTest" time="0.165"/>
+  <system-out><![CDATA[16:24:21.396 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class packt.java11.mybusiness.productinformation.ProductInformationControllerTest]
+16:24:21.408 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:24:21.417 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:24:21.445 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [packt.java11.mybusiness.productinformation.ProductInformationControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+16:24:21.462 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [packt.java11.mybusiness.productinformation.ProductInformationControllerTest], using SpringBootContextLoader
+16:24:21.467 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [packt.java11.mybusiness.productinformation.ProductInformationControllerTest]: class path resource [packt/java11/mybusiness/productinformation/ProductInformationControllerTest-context.xml] does not exist
+16:24:21.469 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [packt.java11.mybusiness.productinformation.ProductInformationControllerTest]: class path resource [packt/java11/mybusiness/productinformation/ProductInformationControllerTestContext.groovy] does not exist
+16:24:21.470 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [packt.java11.mybusiness.productinformation.ProductInformationControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:24:21.578 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [packt.java11.mybusiness.productinformation.ProductInformationControllerTest]: using defaults.
+16:24:21.584 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+16:24:21.604 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+16:24:21.604 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+16:24:21.605 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6e97b150, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13c4af7f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@203fb75f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@528b463c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1c5600c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@374c881c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6a9444e5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6226552d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@48c99c65, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1b96f108]
+16:24:21.608 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [packt.java11.mybusiness.productinformation.ProductInformationControllerTest]
+16:24:21.609 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [packt.java11.mybusiness.productinformation.ProductInformationControllerTest]
+16:24:21.609 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [packt.java11.mybusiness.productinformation.ProductInformationControllerTest]
+16:24:21.609 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [packt.java11.mybusiness.productinformation.ProductInformationControllerTest]
+16:24:21.615 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@58948c4b testClass = ProductInformationControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@97ffbe4 testClass = ProductInformationControllerTest, locations = '{}', classes = '{class packt.java11.mybusiness.productinformation.Application, class packt.java11.mybusiness.productinformation.Application}', contextInitializerClasses = '[]', activeProfiles = '{local}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@e7e8512, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@45a3d156, org.springframework.boot.test.context.ImportsContextCustomizer@1311d885, org.springframework.boot.test.context.SpringBootTestContextCustomizer@7f53f064, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4535b69e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+16:24:21.616 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [packt.java11.mybusiness.productinformation.ProductInformationControllerTest]
+16:24:21.616 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [packt.java11.mybusiness.productinformation.ProductInformationControllerTest]
+16:24:21.682 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:24:21.684 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:24:21.684 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+16:24:21.685 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [test] PropertySource with highest search precedence
+16:24:21.687 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+16:24:21.688 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.1.RELEASE)
+
+2018-08-30 16:24:22.220  INFO 12508 --- [    Test worker] p.j.m.p.ProductInformationControllerTest : Starting ProductInformationControllerTest on EPCHZURW0149 with PID 12508 (started by Peter_Verhas in C:\Users\peter_verhas\Dropbox\packt\Fundamentals-of-java-18.9\sources\ch07\productinformation)
+2018-08-30 16:24:22.221  INFO 12508 --- [    Test worker] p.j.m.p.ProductInformationControllerTest : The following profiles are active: local
+2018-08-30 16:24:22.284  INFO 12508 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5dc64e6a: startup date [Thu Aug 30 16:24:22 CEST 2018]; root of context hierarchy
+2018-08-30 16:24:24.756  INFO 12508 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2018-08-30 16:24:24.757  INFO 12508 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2018-08-30 16:24:25.087  INFO 12508 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/query/{query}]}" onto public java.util.List<java.lang.String> packt.java11.mybusiness.productinformation.ProductInformationController.lookupProductByTitle(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-08-30 16:24:25.088  INFO 12508 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pi/{productId}]}" onto public packt.java11.mybusiness.productinformation.ProductInformation packt.java11.mybusiness.productinformation.ProductInformationController.getProductInformation(java.lang.String)
+2018-08-30 16:24:25.096  INFO 12508 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-30 16:24:25.096  INFO 12508 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-30 16:24:25.145  INFO 12508 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-30 16:24:25.146  INFO 12508 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-30 16:24:25.168  INFO 12508 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-30 16:24:25.177  INFO 12508 --- [    Test worker] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2018-08-30 16:24:25.236  INFO 12508 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5dc64e6a: startup date [Thu Aug 30 16:24:22 CEST 2018]; root of context hierarchy
+2018-08-30 16:24:25.391  INFO 12508 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 634 ms
+2018-08-30 16:24:25.678  INFO 12508 --- [    Test worker] p.j.m.p.ProductInformationControllerTest : Started ProductInformationControllerTest in 3.975 seconds (JVM running for 5.227)
+2018-08-30 16:24:25.751  INFO 12508 --- [    Test worker] p.j.m.p.auth.AuthFilter                  : Partner secret is null
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /pi
+       Parameters = {}
+          Headers = {}
+
+Handler:
+             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = null
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2018-08-30 16:24:25.796  INFO 12508 --- [    Test worker] p.j.m.p.auth.AuthFilter                  : Partner secret is null
+2018-08-30 16:24:25.828  INFO 12508 --- [    Test worker] AUDIT_LOG                                : byId query is about to run
+2018-08-30 16:24:25.831  INFO 12508 --- [    Test worker] AUDIT_LOG                                : byId query was executed
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /pi/123
+       Parameters = {}
+          Headers = {}
+
+Handler:
+             Type = packt.java11.mybusiness.productinformation.ProductInformationController
+           Method = public packt.java11.mybusiness.productinformation.ProductInformation packt.java11.mybusiness.productinformation.ProductInformationController.getProductInformation(java.lang.String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = {"id":"123","title":"Fundamentals of Java 18.9","description":"a new book to learn Java 11","size":[20.0,2.0,18.0],"weight":300.0}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="packt.java11.mastermind.GameTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-29T11:58:34" hostname="EPCHZURW0149" time="0.268">
+  <properties/>
+  <testcase name="canAddNewGuess" classname="packt.java11.mastermind.GameTest" time="0.257"/>
+  <testcase name="throwsExceptionForFinishedGame" classname="packt.java11.mastermind.GameTest" time="0.002"/>
+  <system-out><![CDATA[13:58:34.254 [Test worker] DEBUG packt.java11.mastermind.Table - table is created with 4 columns and packt.java11.mastermind.ColorManager@5adcac11 colorManager
+13:58:34.283 [Test worker] DEBUG packt.java11.mastermind.Table - table is created with 4 columns and packt.java11.mastermind.ColorManager@5d4fac18 colorManager
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

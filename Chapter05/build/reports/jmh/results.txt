@@ -1,0 +1,22 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: nrThreads","Param: queueSize"
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,12.140989,1.385392,"ops/s",1,1
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,12.521611,1.496295,"ops/s",1,10
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,12.516213,1.712080,"ops/s",1,100
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,11.930103,1.188394,"ops/s",1,1000000
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,19.411999,0.876649,"ops/s",4,1
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,17.988902,1.248242,"ops/s",4,10
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,16.825682,1.703122,"ops/s",4,100
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,15.813607,0.697367,"ops/s",4,1000000
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,19.732942,0.687290,"ops/s",8,1
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,19.355610,1.003963,"ops/s",8,10
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,19.570812,0.542425,"ops/s",8,100
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,12.639927,0.693857,"ops/s",8,1000000
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,16.527130,0.372055,"ops/s",16,1
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,19.020810,0.474607,"ops/s",16,10
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,18.465137,0.503722,"ops/s",16,100
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,10.220323,1.042572,"ops/s",16,1000000
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,17.816392,0.468090,"ops/s",32,1
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,17.555004,0.464506,"ops/s",32,10
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,17.235973,0.605080,"ops/s",32,100
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel","thrpt",1,20,6.861313,1.017408,"ops/s",32,1000000
+"packt.java9.by.example.mastermind.integration.MicroBenchmark.playSimple","thrpt",1,20,6.975981,0.156399,"ops/s",,

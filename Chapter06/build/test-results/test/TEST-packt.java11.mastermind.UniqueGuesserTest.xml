@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="packt.java11.mastermind.UniqueGuesserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-29T11:58:34" hostname="EPCHZURW0149" time="0.007">
+  <properties/>
+  <testcase name="keepsGettingTillItBleedsOut" classname="packt.java11.mastermind.UniqueGuesserTest" time="0.003"/>
+  <testcase name="generateAllGuesses" classname="packt.java11.mastermind.UniqueGuesserTest" time="0.003"/>
+  <system-out><![CDATA[13:58:34.329 [Test worker] DEBUG packt.java11.mastermind.Table - table is created with 4 columns and packt.java11.mastermind.ColorManager@f590f8d colorManager
+13:58:34.332 [Test worker] DEBUG packt.java11.mastermind.Table - table is created with 4 columns and packt.java11.mastermind.ColorManager@7c4cae43 colorManager
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

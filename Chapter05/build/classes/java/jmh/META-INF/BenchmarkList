@@ -1,0 +1,2 @@
+JMH S 63 packt.java189fundamentals.mastermind.integration.MicroBenchmark S 92 packt.java189fundamentals.mastermind.integration.generated.MicroBenchmark_playSimple_jmhTest S 10 playSimple S 10 Throughput E A 1 1 1 E E E E E E E I 1 1 E E E E E E E E E 
+JMH S 63 packt.java189fundamentals.mastermind.integration.MicroBenchmark S 94 packt.java189fundamentals.mastermind.integration.generated.MicroBenchmark_playParallel_jmhTest S 12 playParallel S 10 Throughput E A 1 1 1 E E E E E E E I 1 1 E E E E E M 2 9 nrThreads 3 1 1 1 4 1 8 9 queueSize 5 2 -1 1 1 2 10 3 100 7 1000000 E E E 

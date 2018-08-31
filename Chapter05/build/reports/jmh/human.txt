@@ -1,0 +1,42 @@
+# JMH 1.13 (released 64 days ago)
+# VM version: JDK 1.8.0_20, VM 25.20-b23
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/bin/java
+# VM options: -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: packt.java9.by.example.mastermind.integration.MicroBenchmark.playParallel
+# Parameters: (nrThreads = 1, queueSize = -1)
+
+# Run progress: 0.00% complete, ETA 00:17:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 11.461 ops/s
+# Warmup Iteration   2: 14.554 ops/s
+# Warmup Iteration   3: 13.687 ops/s
+# Warmup Iteration   4: 15.094 ops/s
+# Warmup Iteration   5: 16.339 ops/s
+# Warmup Iteration   6: 15.798 ops/s
+# Warmup Iteration   7: 16.920 ops/s
+# Warmup Iteration   8: 15.782 ops/s
+# Warmup Iteration   9: 14.347 ops/s
+# Warmup Iteration  10: 15.711 ops/s
+# Warmup Iteration  11: 16.753 ops/s
+# Warmup Iteration  12: 13.828 ops/s
+# Warmup Iteration  13: 16.919 ops/s
+# Warmup Iteration  14: 14.959 ops/s
+# Warmup Iteration  15: 15.860 ops/s
+# Warmup Iteration  16: 18.455 ops/s
+# Warmup Iteration  17: 13.847 ops/s
+# Warmup Iteration  18: 15.446 ops/s
+# Warmup Iteration  19: 14.708 ops/s
+# Warmup Iteration  20: 14.659 ops/s
+Iteration   1: 15.505 ops/s
+Iteration   2: 16.535 ops/s
+Iteration   3: 14.841 ops/s
+Iteration   4: 12.110 ops/s
+Iteration   5: 14.271 ops/s
+Iteration   6: 13.569 ops/s
+Iteration   7: 14.438 ops/s
+Iteration   8: 

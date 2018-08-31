@@ -1,0 +1,42 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.4.1.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+
+jar {
+    baseName = 'packt-ch08-microservice'
+    version =  '1.0.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+bootRun {
+    systemProperties System.properties
+}
+
+sourceCompatibility = 1.10
+targetCompatibility = 1.10
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-devtools")
+    compile("org.springframework:spring-aop")
+    compile("org.springframework:spring-aspects")
+    compile("javax.xml.bind:jaxb-api:2.2.11")
+    compile("com.sun.xml.bind:jaxb-core:2.2.11")
+    compile("com.sun.xml.bind:jaxb-impl:2.2.11")
+    compile("javax.activation:activation:1.1.1")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}
+

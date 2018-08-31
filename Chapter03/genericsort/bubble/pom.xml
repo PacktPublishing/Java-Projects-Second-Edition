@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>parent</artifactId>
+        <groupId>packt.java189fundamentals</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>bubble</artifactId>
+    <scm>
+        <connection>${parent.scm.connection}</connection>
+        <developerConnection>${parent.scm.developerConnection}</developerConnection>
+    </scm>
+    <!-- note that versions are here because the code snippet shows how it looks when
+         there is no parent pom -->
+    <!-- START SNIPPET bubble_pom_xml_dependencies -->
+    <dependencies>
+        <dependency>
+            <groupId>packt.java189fundamentals</groupId>
+            <artifactId>SortInterface</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
+    <!-- END SNIPPET -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-scm-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

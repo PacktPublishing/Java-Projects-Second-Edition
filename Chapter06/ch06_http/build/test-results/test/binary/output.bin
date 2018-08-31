@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+D<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+F		<title>Packt Publishing | Technology Books, eBooks & Videos</title>
+		<script>
+			dataLayer = [];
+		</script>
+"		<script type="text/javascript">
+À			var GRANIFY_SITE_ID = 1318;(function(e,t,n){var r,i,s,o,u;u=false;try{o=new RegExp("(?:^|\\W)_gr_test_url=([^;]*)");s=document.cookie.match(o);if(s){if(s[1]==="1")u=true}else{r=Math.random();if(r>.95)u=true;i=new Date(+(new Date)+1e3*60*60*24*2);document.cookie="_gr_test_url="+ +u+";expires="+i.toGMTString()+";path=/"}}catch(a){}if(u)e.replace("javascript.js","javascript.next.js");try{o=new RegExp("(?:^|\\W)_gr_ep=([^;]*)");s=document.cookie.match(o);if(!s){document.cookie="_gr_ep_sent=;expires=Thu, 01-Jan-1970 00:00:01 GMT;path=/";document.cookie="_gr_er_sent=;expires=Thu, 01-Jan-1970 00:00:01 GMT;path=/";if(!window.location.origin){if(window.location.port)port=":"+window.location.port;else port="";window.location.origin=window.location.protocol+"//"+window.location.hostname+port}path=window.location.toString().replace(window.location.origin,"");referrer=document.referrer;i=new Date(+(new Date)+1e3*60*30);document.cookie="_gr_ep="+path+";expires="+i.toGMTString()+";path=/";document.cookie="_gr_er="+referrer+";expires="+i.toGMTString()+";path=/"}}catch(a){}a=new Date;a=""+a.getUTCFullYear()+(a.getUTCMonth()+1)+a.getUTCDate();e=e+"?id="+t+"&v="+a;window.Granify=n;n._stack=[];n.init=function(e,t,r){function i(e,t){e[t]=function(){Granify._stack.push([t].concat(Array.prototype.slice.call(arguments,0)))}}var s=n;h=["on","identify","addTag","trackPageView","trackCart","trackOrder"];for(a=0;a<h.length;a++)i(s,h[a])};n.init();var f,l,c,p=document.createElement("iframe");p.src="javascript:false";p.title="";p.role="presentation";(p.frameElement||p).style.cssText="width: 0 !important; height: 0 !important; border: 0 !important; overflow: hidden !important; position: absolute !important; top: -1000px !important; left: -1000px !important;";c=document.getElementsByTagName("script");c=c[c.length-1];c.parentNode.insertBefore(p,c);try{l=p.contentWindow.document}catch(a){f=document.domain;p.src="javascript:var d=document.open();d.domain='"+f+"';void(0);";l=p.contentWindow.document}l.open()._l=function(){var t=this.createElement("script");if(f)this.domain=f;t.id="js-iframe-async";t.src=e;this.body.appendChild(t)};l.write('<body onload="document._l();">');l.close()})("//cdn.granify.com/assets/javascript.js",GRANIFY_SITE_ID,[])
+		</script>
+
+$				<script type="text/javascript">
+			Granify.trackPageView({
+			  page_type: "home"
+			});
+		</script>
+H		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+i<link rel="shortcut icon" href="//d1ldz4te4covpm.cloudfront.net/misc/favicon.ico" type="image/x-icon" />
+ª<meta name="description" content="Packt Publishing is the leading UK provider of Technology eBooks, Coding eBooks, Videos and Blogs; helping IT professionals to put software to work." />
+.<meta name="revisit-after" content="1 day" />
+;		<link rel="canonical" href="https://www.packtpub.com" />
+		
+7        <meta name="twitter:card" content="summary" />
+9        <meta name="twitter:site" content="@packtpub" />
+e        <meta name="twitter:title" content="Packt Publishing | Technology Books, eBooks & Videos" />
+À        <meta name="twitter:description" content="Packt Publishing is the leading UK provider of Technology eBooks, Coding eBooks, Videos and Blogs; helping IT professionals to put software to work." />
+                
+H                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+x        <meta id="viewport" name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+†        <!-- <link href="//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">-->
+d         <link href="/sites/all/themes/packt_v4/fonts/ubuntu.css" rel="stylesheet" type="text/css">
+        <!--[if lt IE 10]>
+k        <link href="/sites/all/themes/packt_v4/css/core/packtpub_ie.css" rel="stylesheet" type="text/css">
+        <![endif]-->
+ñ        <link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/css/1485781196fcff00b8/88193022b61633465ae9b864eeae61e3.css" />
+ê<link type="text/css" rel="stylesheet" media="print" href="/sites/default/files/css/1485781196fcff00b8/6e295a6eb8f64cef4e07d9b1f02d46e8.css" />
+  
+Ü        <script type="text/javascript" src="/sites/default/files/js/14857811960e3f1918/c68c9c8258ea7d85472dd6fd0015f047.js"></script>
+ <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+cjQuery.extend(Drupal.settings, { "basePath": "\u002F", "dhtmlMenu": [ "doubleclick", "clone" ] });
+//--><!]]>
+
+</script>
+(        <script type="text/javascript">
+≤            var Packt = Packt || {}; Packt.user = {"cart":[],"newsletters":[],"country_code":"CH","selected_currency":"EUR","currency":"EUR","currency_symbol":"\u20ac","uid":0};
+        </script>
+i        <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="Packt Publishing News" >
+        <script>
+Y            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+_                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+`                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+Y            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+W            ga("create", "UA-284627-1", "packtpub.com", {"siteSpeedSampleRate": 100});
+.            ga("require", "displayfeatures");
+!            ga('require', 'ec');
+$            ga("send", "pageview");
+        </script>
+    </head>
+    
+'    <body id="ppv4" class="with-logo">
+Q        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWZFW"
+]            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+O            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+Z                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+R            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+Y            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+_        })(window,document,'script','dataLayer','GTM-NJWZFW');Packt.dataLayer.init();</script>
+
+-        <div id="page" class="" checkout="">
+#            <div id="page-header">
+5                			<div id="account-bar" class="cf">
+ 				<div class="section-inner">
+.					<div id="account-bar-status" class="cf">
+/						<div id="account-bar-currency-selector">
+f							<form accept-charset="UTF-8" method="post" id="packt-currency-select-form" class="float-left">
+;								<div class="form-item" id="edit-currency-wrapper">
+Ç									<select name="currency" class="form-select packt-currency-select-box selectBox" id="edit-currency" style="display:none">
+3										<option value="GBP" >GBP &#163;</option>
+1										<option value="USD" >US &#36;</option>
+4										<option value="EUR" >EUR &#8364;</option>
+1										<option value="AUD" >AU &#36;</option>
+									</select>
+								</div>
+_								<input type="submit" name="op" value="" style="display: none;" class="form-submit">			
+p								<input type="hidden" name="form_id" id="edit-packt-currency-select" value="packt_currency_select_form">
+							</form>
+						</div>				
+<						<div class="account-bar-divider float-left">|</div>		
+3						<div id="account-bar-status-security"></div>
+						<noscript>
+0							<div id="account-bar-login-register-ns">
+*								<a href="/account">My Account</a>
+							</div>
+						</noscript>
+,						<div id="account-bar-login-register">
+P							<a href="#" class="login-popup"><div class="float-left">Log in</div></a>
+<							<div class="account-bar-divider float-left">|</div>	
+F							<a href="/register"><div class="float-left">Register</div></a>
+						</div>
+						
+'						<div id="account-bar-logged-in">
+							<a href="/account">
+B								<div class="float-left"><strong>My Account</strong></div>
+							</a>
+<							<div class="account-bar-divider float-left">|</div>	
+D							<a href="/logout"><div class="float-left">Sign out</div></a>
+						</div>
+					</div>
+!					<div id="account-bar-form">
+3						<div id="account-bar-form-login" class="cf">
++							<div class="account-bar-form-left">
+(								<h4>Log in to your account</h4>
+P								<form  accept-charset="UTF-8" method="post" id="packt-user-login-form">
+&<div><div id="login-form" class="cf">
+	<div id="login-form-email">
+-		<div class="form-item" id="email-wrapper">
+ä <input type="text" maxlength="128" name="email" id="email" size="24" value="" placeholder="E-mail address" class="form-text required" />
+</div>
+	</div>
+	<div id="login-form-pass">
+0		<div class="form-item" id="password-wrapper">
+à <input type="password" name="password" id="password"  maxlength="128"  size="24"  placeholder="Password" class="form-text required" />
+</div>
+	</div>
+	<div id="login-form-submit">
+[		<input type="submit" name="op" id="edit-submit-1" value="Login"  class=" form-submit" />
+	</div>
+	<br />
+</div>
+Q<a href="https://www.packtpub.com/account/password">Forgotten your password?</a>
+
+
+
+á<input type="hidden" name="form_build_id" id="form-f76820acaa4281dbe563c410ed874628" value="form-f76820acaa4281dbe563c410ed874628"  />
+
+f<input type="hidden" name="form_id" id="edit-packt-user-login-form" value="packt_user_login_form"  />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></form>
+							</div>
+,							<div class="account-bar-form-right">
+#								<h4>Not yet a member?</h4>
+a								<p>Register for an account and access leading-edge content on emerging technologies.</p>
+X								<p><a class="account-bar-toggle register" href="/register">Register now</a></p>
+							</div>
+						</div>						
+C						<div id="account-bar-form-close"><a href="#">Close</a></div>
+					</div>
+				</div>
+
+			</div>
+<                                        <div id="menu-bar">
+/                <div class="section-inner cf">
+.                    <div id="menuIcon"></div>
+3                    <div id="menu-links" class="">
+%                        <a href="/">
+8                            <div class="menu-item-tab">
+X                                <div class="menu-item-text dummy" id="menu-packt-logo">
+H                                    <span class="alt">Packt Logo</span>
+'                                </div>
+#                            </div>
+                        </a>
+d                                                                                    <a href="/all">
+@                                    <div class="menu-item-tab">
+U                                        <div class="menu-item-text" id="menu-books">
+Z                                            <span class="menu-text">Books & Videos</span>
+/                                        </div>
++                                    </div>
+%                                </a>
+1                                <a href="/tech">
+@                                    <div class="menu-item-tab">
+T                                        <div class="menu-item-text" id="menu-tech">
+P                                            <span class="menu-text">Tech</span>
+/                                        </div>
++                                    </div>
+%                                </a>
+                            
+                            
+V                            <a href="/books/info/packt/about">                       
+<                                <div class="menu-item-tab">
+Q                                    <div class="menu-item-text" id="menu-packt">
+M                                        <span class="menu-text">Packt</span>
++                                    </div>
+'                                </div>
+!                            </a>
+T                            <a href="/books/content/support">                      
+<                                <div class="menu-item-tab">
+S                                    <div class="menu-item-text" id="menu-support">
+O                                        <span class="menu-text">Support</span>
++                                    </div>
+'                                </div>
+!                            </a>
+
+7                            <a id='menu-packtlib-href'
+-                                href="/mapt"
+0                                target="_blank"
+                            >
+<                                <div class="menu-item-tab">
+T                                    <div class="menu-item-text" id="menu-packtlib">
+D                                        <span class="menu-text pl">
+ó                                            <img id="pl-img" src="//d255esdrn735hr.cloudfront.net/sites/all/themes/packt_v4/images/mapt-pplogo.png" />
+0                                        </span>
+
+H                                        <span class="menu-text mob-pl">
+ú                                            <img id="pl-img" src="//dz13w8afd47il.cloudfront.net/sites/all/themes/packt_v4/images/mapt-pplogo-white.png" />
+0                                        </span>
++                                    </div>
+'                                </div>
+!                            </a>
+3                                            </div>
+3                    <div id="menu-icons" class="">
+A                                                    <a href="#">
+<                                <div class="menu-item-tab">
+R                                    <div class="menu-item-icon" id="menu-search">
+H                                        <span class="alt">Search</span>
++                                    </div>
+'                                </div>
+!                            </a>
+:                            <a href="/account/my-ebooks">
+<                                <div class="menu-item-tab">
+\                                    <div class="menu-item-icon dummy" id="menu-collection">
+O                                        <span class="alt">My Collection</span>
++                                    </div>
+'                                </div>
+!                            </a>
+b                                                <a href="https://www.packtpub.com/cart/checkout">
+=                            <div class="menu-item-tab last">
+L                                <div class="menu-item-icon" id="menu-cart">
+]                                    <div id="cart-icon-count" class="cart-icon-count"></div>
+B                                    <span class="alt">Cart</span>
+'                                </div>
+#                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+1            <div id="menu-bar-popup" class="cf">
+A                <div id="menu-bar-popup-inner" class="cf"></div>
+/                <div class="section-inner cf">
+
+V																		<div class="menu-bar-popup-menu threecol cf" id="menu-books-popup">
+;								<div class="menu-bar-popup-section-left threecol">
+<									<div class="menu-bar-popup-section-left-inner cf">
+F										<p class="menu-bar-popup-title">Book & Video Categories</p>
+ 										<div id="books-menu">
+											<div class="cf">
+í	                                            <div class='books-menu-column categories'><div class='inner'><p><a href="/web-development">Web Development</a></p><p><a href="/big-data-and-business-intelligence">Big Data & Business Intelligence</a></p><p><a href="/application-development">Application Development</a></p><p><a href="/virtualization-and-cloud">Virtualization & Cloud</a></p></div></div><div class='books-menu-column categories'><div class='inner'><p><a href="/game-development">Game Development</a></p><p><a href="/networking-and-servers">Networking & Servers</a></p><p><a href="/hardware-and-creative">Hardware & Creative</a></p><p><a href="/business">Business</a></p></div></div>	                                            <div class='books-menu-column last categories'>
+E	                                                <div class='inner'>
+ì	                                                <p><a href="/all">All Products</a></p><p><a href="/all-books">All Books</a></p><p><a href="/video">All Videos</a></p><p><a href="/latest-releases">Latest Releases</a></p>	                                                </div>
+4	                                            </div>
+											</div>
+										</div>
+									</div>
+								</div>
+<								<div class="menu-bar-popup-section-right threecol">
+G																			<div class="menu-bar-popup-section-right-inner cf">
+8											<div id="deal-of-the-day-banner" class="cf">
+3												<div id="menu-bar-dotd-preview-thumb">
+/													<a href="/books/deal-of-the-day">
+ª														<img src="//d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781786465450.jpg" alt="Building Bots with Node.js" title="" width="150" height="185" class="lazyload-disabled imagecache imagecache-featured_book_block"/>														<div class="menu-bar-dotd-percentage">
+;															<div class="menu-bar-dotd-percentage-text">
+O																50<sup class="dotd-sup">%</sup><div class="dotd-sub">off</div>
+															</div>
+														</div>
+													</a>
+												</div>
+2												<div id="menu-bar-dotd-preview-text">
+f													<p class="menu-bar-popup-title"><a href="/books/deal-of-the-day">Deal of the Day</a></p>
+ö													<p>Automate workflow and internal communication processes and provide customer service without apps using messaging and interactive bots</p>
+												</div>
+7												<div class="cf deal-of-the-day-in-header">
+;													<div class="dots-main-book-price float-left">
+8														<div class="book-top-pricing-main-price">
+R															<div class="book-top-pricing-main-ebook-price  ">√¢¬Ç¬¨14.00</div>
+														</div>
+R	                                                    <div class="dotd-rrp-price">
+Ñ	                                                        RRP √¢¬Ç¬¨27.99	                                                    </div>
+													</div>
+
+•													<form action="/add_to_cart/27376"  accept-charset="UTF-8" method="post" id="packt-libraries-add-to-cart-form" class="packt-libraries-add-to-cart-form">
+<div>
+(<div class="book-top-addtocart-inner">	
+-	<div class="book-top-addtocart-logo"></div>
+2	<div class="book-top-addtocart-separator"></div>
+	
+i	<input type="submit" name="submit-27376" id="submit-27376" value="Add to Cart"  class=" form-submit" />
+>	<input type="hidden" name="nids" id="nids" value="27376"  />
+
+9<input type="hidden" name="qtys" id="qtys" value="1"  />
+
+B<input type="hidden" name="upsell" id="edit-upsell" value="1"  />
+
+
+
+
+
+
+á<input type="hidden" name="form_build_id" id="form-4109e47490e7e8e254efc4d3c3c4ec5b" value="form-4109e47490e7e8e254efc4d3c3c4ec5b"  />
+
+|<input type="hidden" name="form_id" id="edit-packt-libraries-add-to-cart-form" value="packt_libraries_add_to_cart_form"  />
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div></form>
+												</div>
+											</div>
+E											<div class="cf newsletter-signup-form" newsletter_id=280>
+y												<div class="dotd-signup-text"><strong>Sign up here to get these deals straight to your inbox</strong></div> 
+^												<form  accept-charset="UTF-8" method="post" id="packt-v3-subscribtion-dotd-form">
+<div><div class="form-item">
+ 
+</div>
+/<div class="form-item" id="edit-mail-wrapper">
+é <input type="text" maxlength="128" name="mail" id="edit-mail" size="60" value="" placeholder="Enter your email address" class="form-text" />
+</div>
+O<input type="hidden" name="newsletter_id" id="edit-newsletter-id" value=""  />
+Z<input type="submit" name="op" id="edit-submit-3" value="Submit"  class=" form-submit" />
+á<input type="hidden" name="form_build_id" id="form-df1c0aba9a76a56e7f7d81bfbe5bc0ff" value="form-df1c0aba9a76a56e7f7d81bfbe5bc0ff"  />
+z<input type="hidden" name="form_id" id="edit-packt-v3-subscribtion-dotd-form" value="packt_v3_subscribtion_dotd_form"  />
+
+</div></form>
+											</div>
+										</div>
+																	</div>
+							</div>
+
+I							<div class="menu-bar-popup-menu fourcol cf" id="menu-tech-popup">
+:								<div class="menu-bar-popup-section-left fourcol">
+<									<div class="menu-bar-popup-section-left-inner cf">
+3										<p class="menu-bar-popup-title">Tech</p>
+'										<div class="packt-menu cf">	
+											<div class="cf">
+É												<div class='books-menu-column categories '><div class='inner'>														<p><a href="/tech/android">Android</a></p>
+
+J																											<p><a href="/tech/angularjs">AngularJS</a></p>
+
+F																											<p><a href="/tech/arduino">Arduino</a></p>
+
+F																											<p><a href="/tech/blender">Blender</a></p>
+
+J																											<p><a href="/tech/bootstrap">Bootstrap</a></p>
+
+T																											<p><a href="/tech/data%20analysis">Data Analysis</a></p>
+
+D																											<p><a href="/tech/django">Django</a></p>
+
+D																											<p><a href="/tech/docker">Docker</a></p>
+
+D																											<p><a href="/tech/drupal">Drupal</a></p>
+
+¨													</div></div><div class='books-menu-column categories '><div class='inner'>														<p><a href="/tech/graphics%20programming">Graphics Programming</a></p>
+
+D																											<p><a href="/tech/hadoop">Hadoop</a></p>
+
+`																											<p><a href="/tech/Internet%20of%20Things">Internet of Things</a></p>
+
+>																											<p><a href="/tech/ios">iOS</a></p>
+
+@																											<p><a href="/tech/java">Java</a></p>
+
+L																											<p><a href="/tech/javascript">JavaScript</a></p>
+
+D																											<p><a href="/tech/jquery">jQuery</a></p>
+
+B																											<p><a href="/tech/linux">Linux</a></p>
+
+§													</div></div><div class='books-menu-column categories '><div class='inner'>														<p><a href="/tech/machine%20learning">Machine Learning</a></p>
+
+D																											<p><a href="/tech/opencv">OpenCV</a></p>
+
+J																											<p><a href="/tech/openstack">OpenStack</a></p>
+
+D																											<p><a href="/tech/oracle">Oracle</a></p>
+
+`																											<p><a href="/tech/penetration%20testing">Penetration Testing</a></p>
+
+>																											<p><a href="/tech/php">PHP</a></p>
+
+L																											<p><a href="/tech/postgresql">PostgreSQL</a></p>
+
+D																											<p><a href="/tech/python">Python</a></p>
+
+ñ													</div></div><div class='books-menu-column categories last'><div class='inner'>														<p><a href="/tech/qlikview">QlikView</a></p>
+
+:																											<p><a href="/tech/r">R</a></p>
+
+B																											<p><a href="/tech/scala">Scala</a></p>
+
+B																											<p><a href="/tech/spark">Spark</a></p>
+
+D																											<p><a href="/tech/spring">Spring</a></p>
+
+B																											<p><a href="/tech/swift">Swift</a></p>
+
+B																											<p><a href="/tech/unity">Unity</a></p>
+
+J																											<p><a href="/tech/wordpress">WordPress</a></p>
+
++													</div></div>											</div>
+										</div>
+									</div>
+								</div>						
+							</div>
+						
+                        
+S                        <div class="menu-bar-popup-menu cf" id="menu-packt-popup">
+M                            <div class="menu-bar-popup-section-left twocol">
+S                                <div class="menu-bar-popup-section-left-inner cf">
+Y                                    <p class="menu-bar-popup-title">Packt Publishing</p>
+@                                    <div class="packt-menu cf">
+H                                        <div class="books-menu-column">
+@                                            <div class="inner">
+f                                                <p><a href="/books/info/packt/about">About Us</a></p>
+R                                                <p><a href="/press">Press</a></p>
+k                                                <p><a href="/books/info/packt/authors">Our Authors</a></p>
+X                                            <!--<p><a href="/blog-network">Blog</a></p>
+k                                            <p><a href="/techprimer-network">Technology Primers</a></p>-->
+/                                        </div>
++                                    </div>
+D                                    <div class="books-menu-column">
+<                                        <div class="inner">
+i                                            <p><a href="/books/info/packt/contact-us">Contact Us</a></p>
+n                                            <p><a href="/books/info/packt/careers-with-packt">Careers</a></p>
+s                                            <p><a href="/books/info/packt/trade-partners">Trade & Partners</a></p>
+b                                            <!--<p><a href="/article-network">Articles</a></p>-->
+/                                        </div>
++                                    </div>
+'                                </div>
+#                            </div>
+                        </div>
+N                        <!--<div class="menu-bar-popup-section-right twocol">
+P                            <div class="menu-bar-popup-section-right-inner cf">
+J                                <div id="menu-bar-article-preview-thumb">
+Ò                                    <noscript><img src="//d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_header_article_thumb/448_Cover Image.png" alt="Detecting Fake Reviews" title="" width="240" height="114" class=" imagecache imagecache-ppv4_header_article_thumb"/></noscript><img src="/sites/default/files/blank.gif" alt="Detecting Fake Reviews" title="" width="240" height="114" data-original="//d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_header_article_thumb/448_Cover Image.png" class=" imagecache imagecache-ppv4_header_article_thumb"/>                                </div>
+I                                <div id="menu-bar-article-preview-text">
+ì                                    <p class="menu-bar-popup-title"><a href="/books/content/detecting-fake-reviews">Detecting Fake Reviews</a></p>
+L                                    <p id="menu-bar-article-one-liner"></p>
+Y                                    <p><a href="/articles">Read all our articles</a></p>
+'                                </div>
+#                            </div>
+"                        </div>-->
+                    </div>
+
+
+Q                    <div class="menu-bar-popup-menu cf" id="menu-support-popup">
+I                        <div class="menu-bar-popup-section-left twocol">
+O                            <div class="menu-bar-popup-section-left-inner cf">
+L                                <p class="menu-bar-popup-title">Support</p>
+<                                <div class="packt-menu cf">
+D                                    <div class="books-menu-column">
+<                                        <div class="inner">
+\                                            <p><a href="/books/info/packt/faq">FAQs</a></p>
+q                                            <p><a href="/books/info/packt/ordering">Ordering Information</a></p>
+{                                            <p><a href="/books/info/packt/terms-and-conditions">Terms & Conditions</a></p>
+/                                        </div>
++                                    </div>
+D                                    <div class="books-menu-column">
+<                                        <div class="inner">
+p                                            <p><a href="/books/content/support">Code Downloads & Errata</a></p>
+e                                            <p><a href="/books/content/errata">Submit Errata</a></p>
+/                                        </div>
++                                    </div>
+'                                </div>
+#                            </div>
+                        </div>
+                    </div>
+
+R                    <div class="menu-bar-popup-menu cf" id="menu-packtlib-popup">
+I                        <div class="menu-bar-popup-section-left twocol">
+O                            <div class="menu-bar-popup-section-left-inner cf">
+I                                <p class="menu-bar-popup-title">Mapt</p>
+<                                <div class="packt-menu cf">
+D                                    <div class="books-menu-column">
+<                                        <div class="inner">
+v                                            <p id="menu-mapt-link"><a href="/mapt" target='_blank'>Go to Mapt</a></p>
+/                                        </div>
++                                    </div>
+'                                </div>
+#                            </div>
+                        </div>
+                    </div>
+
+P                    <div class="menu-bar-popup-menu cf" id="menu-search-popup">
+B                        <div class="menu-bar-popup-search-inner">
+o                            <form  accept-charset="UTF-8" method="post" id="packt-libraries-main-search-form">
+<div>
+&<div id="menu-bar-search" class="cf">
+"	<div id="menu-bar-search-title">
+&		<div class="form-item">Search</div>
+	</div>
+ 	<div id="menu-bar-search-box">
+8		<div class="form-item" id="main-search-keys-wrapper">
+á <input type="text" name="keys" id="main-search-keys" size="49" value="" placeholder="Enter your search terms..." class="form-text" />
+</div>
+	</div>
+#	<div id="menu-bar-search-button">
+\		<input type="submit" name="op" id="edit-submit-5" value="Search"  class=" form-submit" />
+	</div>
+?	<input type="hidden" name="sort" id="edit-sort" value="0"  />
+
+@<input type="hidden" name="types" id="edit-types" value="0"  />
+
+L<input type="hidden" name="forthcoming" id="edit-forthcoming" value="1"  />
+
+H<input type="hidden" name="available" id="edit-available" value="1"  />
+
+A<input type="hidden" name="count" id="edit-count" value="20"  />
+
+
+
+
+á<input type="hidden" name="form_build_id" id="form-eae0650296fa188cbda9080fe5d1a21d" value="form-eae0650296fa188cbda9080fe5d1a21d"  />
+
+|<input type="hidden" name="form_id" id="edit-packt-libraries-main-search-form" value="packt_libraries_main_search_form"  />
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+</div>
+G<div class="facet-search-cross facet-search-cross-autocomplete"></div>
+</div></form>
+                        </div>
+                    </div>
+
+N                    <div class="menu-bar-popup-menu cf" id="menu-cart-popup">
+G                        <div class="menu-bar-popup-section-left even">
+O                            <div class="menu-bar-popup-section-left-inner cf">
+G                                <div id="menu-bar-popup-cart-preview">
+P                                    <div id="menu-bar-popup-cart-item-preview">
+
+Z                                        <div id="menu-bar-popup-cart-item-preview-image">
+;                                            <img src="" />
+/                                        </div>
+Z                                        <p class="menu-bar-popup-title">Added to Cart</p>
+\                                        <p id="menu-bar-popup-cart-item-preview-title"></p>
+_                                        <p id="menu-bar-popup-cart-item-preview-oneliner"></p>
+z                                        <p id="menu-bar-popup-cart-item-preview-additional">...and <span></span> more</p>
+≥                                        <p class="price"><span id="menu-bar-popup-cart-item-preview-currency"></span><span id="menu-bar-popup-cart-item-preview-price"></span></p>
++                                    </div>
+'                                </div>
+K                                <p id="menu-bar-popup-cart-empty-preview">
+T                                    You don't have anything in your cart right now.
+%                                </p>
+#                            </div>
+                        </div>
+
+H                        <div class="menu-bar-popup-section-right even">
+P                            <div class="menu-bar-popup-section-right-inner cf">
+B                                <div id="menu-bar-popup-content">
+H                                    <div class="cf cart-price-preview">
+É                                        <p id="menu-bar-popup-subtotal-title" class="menu-bar-popup-title float-left">Subtotal</p>
+á                                        <p id="menu-bar-popup-subtotal-value" class="menu-bar-popup-title float-right price"> 0.00</p>
+Ö                                        <p id="menu-bar-popup-subtotal-currency" class="menu-bar-popup-title float-right price"></p>
++                                    </div>
+ä                                    <p><strong>Free shipping</strong> on print orders for US, UK, Europe and selected Asian countries</p>
++                                    <form>
+Ä                                        <a href="https://www.packtpub.com/cart/checkout" class="button-link grey">View Cart</a>
+6                                        <span></span>
+í                                        <a href="https://www.packtpub.com/cart/checkout/?checkout_step=payment" class="button-link">Check Out</a>
+,                                    </form>
+'                                </div>
+k                                <div id="checkout-close" onclick="Packt.headerMenu.hideMenuPopup()"></div>
+
+#                            </div>
+                        </div>
+                    </div>
+N                    <div class="menu-bar-popup-menu cf" id="menu-cart-small">
+                        <div>
+H                            <div class="small-popup-outer float-right">
+?                                <div class="small-popup-tick">
++                                    &nbsp;
+'                                </div>
+?                                <div class="small-popup-text">
+-                                    <strong>
+<                                        Title added to cart
+.                                    </strong>
+'                                </div>
+D                                <div class="small-popup-seperator">
+'                                </div>
+A                                <div class="small-popup-arrows">
+&nbsp;
+'                                </div>
+#                            </div>
+                        </div>
+                    </div>
+#                            </div>
+D            <div id="menu-bar-popup-inner-bottom" class="cf"></div>
+        </div>
+            </div>
+T						<div id="main-container" class="front not-logged-in page-index no-sidebars ">
+				<div id="main" class="">
+					
+											 <!-- #content -->
+					 	<div id="content">
+							 	
+						 		
+2						 								 			<div class="section-inner cf">
+0						 							 			<div id="messages-container">
+							 							 			</div>
+						 								 			</div>
+
+						 		
+
+							
+							
+5							<a name="main-content" id="main-content"></a>
+M							<div class="panel-display panel-1col clear-block" id="main-carousel">
+&  <div class="panel-panel panel-col">
+"    <div><div class="panel-pane">
+<div class="content">
+ö<div class="homepage-zone homepage-header" style="background-image: url('/sites/default/files/BackgroundwithCovers_2_SD_0.png');background-size: cover;">
+     <div class="section-inner">
+â        <a href="/mapt-free-trial-jan/front"><img src="//d1ldz4te4covpm.cloudfront.net/sites/default/files/basic_trial_cta_3.png" /></a>
+b        <form  accept-charset="UTF-8" method="post" id="packt-libraries-five-dollar-search-form">
+B<div><div class="form-item" id="five-dollar-search-keys-wrapper">
+Ö <input type="text" name="keys" id="five-dollar-search-keys" size="49" value="" placeholder="Feed your mind..." class="form-text" />
+</div>
+><input type="hidden" name="sort" id="edit-sort" value="0"  />
+@<input type="hidden" name="types" id="edit-types" value="0"  />
+L<input type="hidden" name="forthcoming" id="edit-forthcoming" value="1"  />
+H<input type="hidden" name="available" id="edit-available" value="1"  />
+A<input type="hidden" name="count" id="edit-count" value="20"  />
+R<input type="submit" name="op" id="edit-submit" value=""  class=" form-submit" />
+á<input type="hidden" name="form_build_id" id="form-824f02578318c64efe09f0f469b2ddd4" value="form-824f02578318c64efe09f0f469b2ddd4"  />
+ä<input type="hidden" name="form_id" id="edit-packt-libraries-five-dollar-search-form" value="packt_libraries_five_dollar_search_form"  />
+
+</div></form>
+    </div>
+%    <div class="homepage-tech-tags">
+$        <div class="section-inner">
+U                            <a href="http://www.packtpub.com/tech/python">Python</a>
+]                            <a href="http://www.packtpub.com/tech/javascript">JavaScript</a>
+[                            <a href="http://www.packtpub.com/tech/angularjs">AngularJS</a>
+S                            <a href="http://www.packtpub.com/tech/linux">Linux</a>
+S                            <a href="http://www.packtpub.com/tech/unity">Unity</a>
+U                            <a href="http://www.packtpub.com/tech/hadoop">Hadoop</a>
+W                            <a href="http://www.packtpub.com/tech/android">Android</a>
+O                            <a href="http://www.packtpub.com/tech/ios">iOS</a>
+S                            <a href="http://www.packtpub.com/tech/linux">Linux</a>
+W                            <a href="http://www.packtpub.com/tech/arduino">Arduino</a>
+W                            <a href="http://www.packtpub.com/tech/blender">Blender</a>
+[                            <a href="http://www.packtpub.com/tech/bootstrap">Bootstrap</a>
+e                            <a href="http://www.packtpub.com/tech/data%20analysis">Data Analysis</a>
+                    </div>
+    </div>
+</div></div>
+</div>
+G<div class="panel-region-separator"></div><div class="panel-pane odd">
+4<div class="content"><div class="section-inner cf">
+(	<div class="hero-blocks display-3 cf">
+1											<a href="packt/offers/free-learning">
+´	<div class="hero-block  bg-ffffff" style="background-color: #ffffff; background-image: url(//d1ldz4te4covpm.cloudfront.net/sites/default/files/free-learning-hero.png);">
+ 		<div class="hero-block-body">
+#			<h3>FREE LEARNING FOREVER</h3>
+UDevelop new skills and unlock valuable knowledge with a FREE eBook every day		</div>
+	</div>
+</a>
+/														<a href="books/deal-of-the-day">
+©	<div class="hero-block  bg-d92238" style="background-color: #d92238; background-image: url(//d1ldz4te4covpm.cloudfront.net/sites/default/files/DotD-block-aug16.png);">
+ 		<div class="hero-block-body">
+			<h3>DEAL OF THE DAY</h3>
+ì<p>Sign up here&nbsp;to get exclusive deep discounts on our latest and bestselling eBooks, delivered straight to your inbox every day.</p>		</div>
+	</div>
+</a>
+-														<a href="books/content/blogs">
+§	<div class="hero-block last bg-ffffff" style="background-color: #ffffff; background-image: url(//dz13w8afd47il.cloudfront.net/sites/default/files/new-blog.png);">
+ 		<div class="hero-block-body">
+			<h3>EXPLORE THE BLOG</h3>
+ñ<p>Keep ahead of the curve with the latest expert insight, in-depth technical analysis, and Editor√¢¬Ä¬ôs Picks on emerging technologies.</p>		</div>
+	</div>
+</a>
+#							<div class="clear"></div>		
+						</div>
+</div></div>
+</div>
+C<div class="panel-region-separator"></div><div class="panel-pane">
+/<div class="content"><div id="featured-books">
+7	<div id="featured-books-inner" class="section-inner">
+		<div id="featured-blurb">
+			<h1>Editor's Picks</h1>
+				<div>
+§				<p>Looking for somewhere to get started? Check out some of our newest, most exciting, and bestselling books and videos hand picked by our editors.</p>			</div>
+			</div>
+										
+		
+È	<div class="book-block-outer " itemscope itemtype="http://schema.org/Product" data-product="true" data-product-id="22009" data-product-position="1" data-product-price="28.99" data-product-title="Responsive Web Design with HTML5 and CSS3 - Second Edition" data-product-type="books" data-product-brand="Packt Publishing" data-product-category="Web Development">
+		<div class="book-block">
+'			<div class="book-block-icon-books">
+
+			</div>
+							<noscript>
+å					<img src="//d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781784398934.png" class="bookimage "  />
+				</noscript>
+π				<img src="/sites/default/files/blank.gif" data-original="//d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781784398934.png" class="bookimage " />
+5						<div class="book-block-title" itemprop="name">
+H				Responsive Web Design with HTML5 and CSS3 - Second Edition			</div>
+b			<div class="book-block-price " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+-				<meta itemprop="price" content="28.99"/>
+3				<meta itemprop="priceCurrency" content="EUR"/>
+				√¢¬Ç¬¨ 28.99			</div>
+$			<div class="book-block-overlay">
+T				<a href="/web-development/responsive-web-design-html5-and-css3-second-edition">
+H					<div class="book-block-one-liner ellipsis" itemprop="description">
+ï						<div>Learn the HTML5 and CSS3 you need to help you design responsive and future-proof websites that meet the demands of modern web users</div>
+					</div>
+;                    <div class="feefo-review-star-rating">
+£                        <div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star half-star "></div><img src='//dz13w8afd47il.cloudfront.net/sites/all/themes/packt_v4/images/feefo-logo-simple.png' class='left simple-feefo-logo' />                    </div>
+					</a>
+&				<div class="book-block-buttons ">
+w											<button type="submit" nid="22009" action="/add_to_cart/22006" class="book-block-buy  ">√¢¬Ç¬¨28.99</button>
+									</div>
+
+			</div>
+			</div>
+	</div>
+									
+		
+Ì	<div class="book-block-outer  book-block-position-2" itemscope itemtype="http://schema.org/Product" data-product="true" data-product-id="17955" data-product-position="2" data-product-price="32.99" data-product-title="Python Machine Learning" data-product-type="books" data-product-brand="Packt Publishing" data-product-category="Big Data & Business Intelligence">
+		<div class="book-block">
+'			<div class="book-block-icon-books">
+
+			</div>
+							<noscript>
+å					<img src="//d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781783555130.png" class="bookimage "  />
+				</noscript>
+π				<img src="/sites/default/files/blank.gif" data-original="//d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781783555130.png" class="bookimage " />
+5						<div class="book-block-title" itemprop="name">
+%				Python Machine Learning			</div>
+b			<div class="book-block-price " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+-				<meta itemprop="price" content="32.99"/>
+3				<meta itemprop="priceCurrency" content="EUR"/>
+				√¢¬Ç¬¨ 32.99			</div>
+$			<div class="book-block-overlay">
+K				<a href="/big-data-and-business-intelligence/python-machine-learning">
+H					<div class="book-block-one-liner ellipsis" itemprop="description">
+í						<div>Learn how to build powerful Python machine learning algorithms to generate useful data insights with this data analysis tutorial</div>
+					</div>
+;                    <div class="feefo-review-star-rating">
+£                        <div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star half-star "></div><img src='//dz13w8afd47il.cloudfront.net/sites/all/themes/packt_v4/images/feefo-logo-simple.png' class='left simple-feefo-logo' />                    </div>
+					</a>
+&				<div class="book-block-buttons ">
+w											<button type="submit" nid="17955" action="/add_to_cart/17954" class="book-block-buy  ">√¢¬Ç¬¨32.99</button>
+									</div>
+
+			</div>
+			</div>
+	</div>
+									
+		
+Í	<div class="book-block-outer  book-block-position-3" itemscope itemtype="http://schema.org/Product" data-product="true" data-product-id="25979" data-product-position="3" data-product-price="27.99" data-product-title="Smart Internet of Things Projects" data-product-type="books" data-product-brand="Packt Publishing" data-product-category="Hardware & Creative">
+		<div class="book-block">
+'			<div class="book-block-icon-books">
+
+			</div>
+							<noscript>
+¥					<img src="//d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/66518OS_5336_Internet of Things with Arduino Cookbook.jpg" class="bookimage "  />
+				</noscript>
+·				<img src="/sites/default/files/blank.gif" data-original="//d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/66518OS_5336_Internet of Things with Arduino Cookbook.jpg" class="bookimage " />
+5						<div class="book-block-title" itemprop="name">
+/				Smart Internet of Things Projects			</div>
+b			<div class="book-block-price " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+-				<meta itemprop="price" content="27.99"/>
+3				<meta itemprop="priceCurrency" content="EUR"/>
+				√¢¬Ç¬¨ 27.99			</div>
+$			<div class="book-block-overlay">
+E				<a href="/hardware-and-creative/smart-internet-things-projects">
+H					<div class="book-block-one-liner ellipsis" itemprop="description">
+å						<div>Discover how to build your own smart Internet of Things projects and bring a new degree of interconnectivity to your world</div>
+					</div>
+;                    <div class="feefo-review-star-rating">
+ô                        <div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star "></div><img src='//dz13w8afd47il.cloudfront.net/sites/all/themes/packt_v4/images/feefo-logo-simple.png' class='left simple-feefo-logo' />                    </div>
+					</a>
+&				<div class="book-block-buttons ">
+w											<button type="submit" nid="25979" action="/add_to_cart/25978" class="book-block-buy  ">√¢¬Ç¬¨27.99</button>
+									</div>
+
+			</div>
+			</div>
+	</div>
+									
+		
+ê	<div class="book-block-outer  book-block-position-2 book-block-position-4" itemscope itemtype="http://schema.org/Product" data-product="true" data-product-id="23682" data-product-position="4" data-product-price="32.99" data-product-title="AWS Administration √¢¬Ä¬ì The Definitive Guide" data-product-type="books" data-product-brand="Packt Publishing" data-product-category="Virtualization & Cloud">
+ 		<div class="book-block last">
+'			<div class="book-block-icon-books">
+
+			</div>
+							<noscript>
+å					<img src="//d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781782173755.png" class="bookimage "  />
+				</noscript>
+π				<img src="/sites/default/files/blank.gif" data-original="//d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781782173755.png" class="bookimage " />
+5						<div class="book-block-title" itemprop="name">
+<				AWS Administration √¢¬Ä¬ì The Definitive Guide			</div>
+b			<div class="book-block-price " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+-				<meta itemprop="price" content="32.99"/>
+3				<meta itemprop="priceCurrency" content="EUR"/>
+				√¢¬Ç¬¨ 32.99			</div>
+$			<div class="book-block-overlay">
+B				<a href="/virtualization-and-cloud/aws-administration-guide">
+H					<div class="book-block-one-liner ellipsis" itemprop="description">
+ê						<div>Learn to design, build, and manage your infrastructure on the most popular of all the Cloud platforms√¢¬Ä¬îAmazon Web Services</div>
+					</div>
+;                    <div class="feefo-review-star-rating">
+•                        <div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><img src='//dz13w8afd47il.cloudfront.net/sites/all/themes/packt_v4/images/feefo-logo-simple.png' class='left simple-feefo-logo' />                    </div>
+					</a>
+&				<div class="book-block-buttons ">
+w											<button type="submit" nid="23682" action="/add_to_cart/23679" class="book-block-buy  ">√¢¬Ç¬¨32.99</button>
+									</div>
+
+			</div>
+			</div>
+	</div>
+									
+		
+˛	<div class="book-block-outer  book-block-position-5" itemscope itemtype="http://schema.org/Product" data-product="true" data-product-id="21990" data-product-position="5" data-product-price="39.99" data-product-title="Machine Learning with R - Second Edition" data-product-type="books" data-product-brand="Packt Publishing" data-product-category="Big Data & Business Intelligence">
+		<div class="book-block">
+'			<div class="book-block-icon-books">
+
+			</div>
+							<noscript>
+å					<img src="//d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781784393908.png" class="bookimage "  />
+				</noscript>
+π				<img src="/sites/default/files/blank.gif" data-original="//d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781784393908.png" class="bookimage " />
+5						<div class="book-block-title" itemprop="name">
+6				Machine Learning with R - Second Edition			</div>
+b			<div class="book-block-price " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+-				<meta itemprop="price" content="39.99"/>
+3				<meta itemprop="priceCurrency" content="EUR"/>
+				√¢¬Ç¬¨ 39.99			</div>
+$			<div class="book-block-overlay">
+U				<a href="/big-data-and-business-intelligence/machine-learning-r-second-edition">
+H					<div class="book-block-one-liner ellipsis" itemprop="description">
+Ü						<div>Discover how to build machine learning algorithms, prepare data, and dig deep into data prediction techniques with R</div>
+					</div>
+;                    <div class="feefo-review-star-rating">
+£                        <div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star half-star "></div><img src='//dz13w8afd47il.cloudfront.net/sites/all/themes/packt_v4/images/feefo-logo-simple.png' class='left simple-feefo-logo' />                    </div>
+					</a>
+&				<div class="book-block-buttons ">
+w											<button type="submit" nid="21990" action="/add_to_cart/21989" class="book-block-buy  ">√¢¬Ç¬¨39.99</button>
+									</div>
+
+			</div>
+			</div>
+	</div>
+									
+		
+ò	<div class="book-block-outer  book-block-position-2 book-block-position-3" itemscope itemtype="http://schema.org/Product" data-product="true" data-product-id="20265" data-product-position="6" data-product-price="35.99" data-product-title="Python 3 Object-oriented Programming - Second Edition" data-product-type="books" data-product-brand="Packt Publishing" data-product-category="Application Development">
+		<div class="book-block">
+'			<div class="book-block-icon-books">
+
+			</div>
+							<noscript>
+å					<img src="//d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781784398781.png" class="bookimage "  />
+				</noscript>
+π				<img src="/sites/default/files/blank.gif" data-original="//d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781784398781.png" class="bookimage " />
+5						<div class="book-block-title" itemprop="name">
+C				Python 3 Object-oriented Programming - Second Edition			</div>
+b			<div class="book-block-price " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+-				<meta itemprop="price" content="35.99"/>
+3				<meta itemprop="priceCurrency" content="EUR"/>
+				√¢¬Ç¬¨ 35.99			</div>
+$			<div class="book-block-overlay">
+\				<a href="/application-development/python-3-object-oriented-programming-second-edition">
+H					<div class="book-block-one-liner ellipsis" itemprop="description">
+≤						<div>Rethink Python programming with this guide to Python data structures, design patterns and effective object oriented techniques, to uncover a truly modern Python</div>
+					</div>
+;                    <div class="feefo-review-star-rating">
+£                        <div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star half-star "></div><img src='//dz13w8afd47il.cloudfront.net/sites/all/themes/packt_v4/images/feefo-logo-simple.png' class='left simple-feefo-logo' />                    </div>
+					</a>
+&				<div class="book-block-buttons ">
+w											<button type="submit" nid="20265" action="/add_to_cart/20264" class="book-block-buy  ">√¢¬Ç¬¨35.99</button>
+									</div>
+
+			</div>
+			</div>
+	</div>
+									
+		
+¬	<div class="book-block-outer " itemscope itemtype="http://schema.org/Product" data-product="true" data-product-id="21462" data-product-position="7" data-product-price="39.99" data-product-title="Unity 5.x Cookbook" data-product-type="books" data-product-brand="Packt Publishing" data-product-category="Game Development">
+		<div class="book-block">
+'			<div class="book-block-icon-books">
+
+			</div>
+							<noscript>
+ã					<img src="//dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781784391362.png" class="bookimage "  />
+				</noscript>
+∏				<img src="/sites/default/files/blank.gif" data-original="//dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781784391362.png" class="bookimage " />
+5						<div class="book-block-title" itemprop="name">
+ 				Unity 5.x Cookbook			</div>
+b			<div class="book-block-price " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+-				<meta itemprop="price" content="39.99"/>
+3				<meta itemprop="priceCurrency" content="EUR"/>
+				√¢¬Ç¬¨ 39.99			</div>
+$			<div class="book-block-overlay">
+3				<a href="/game-development/unity-5x-cookbook">
+H					<div class="book-block-one-liner ellipsis" itemprop="description">
+∞						<div>Everything you need to tackle Unity programming can be found in this collection of more than 100 Unity 5 recipes, packed with game development tips and tricks</div>
+					</div>
+;                    <div class="feefo-review-star-rating">
+£                        <div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star half-star "></div><img src='//dz13w8afd47il.cloudfront.net/sites/all/themes/packt_v4/images/feefo-logo-simple.png' class='left simple-feefo-logo' />                    </div>
+					</a>
+&				<div class="book-block-buttons ">
+w											<button type="submit" nid="21462" action="/add_to_cart/21460" class="book-block-buy  ">√¢¬Ç¬¨39.99</button>
+									</div>
+
+			</div>
+			</div>
+	</div>
+									
+		
+ú	<div class="book-block-outer  book-block-position-2 book-block-position-4" itemscope itemtype="http://schema.org/Product" data-product="true" data-product-id="24908" data-product-position="8" data-product-price="35.99" data-product-title="C# 6 and .NET Core 1.0: Modern Cross-Platform Development" data-product-type="books" data-product-brand="Packt Publishing" data-product-category="Application Development">
+		<div class="book-block">
+'			<div class="book-block-icon-books">
+
+			</div>
+							<noscript>
+å					<img src="//d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781785285691.png" class="bookimage "  />
+				</noscript>
+π				<img src="/sites/default/files/blank.gif" data-original="//d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781785285691.png" class="bookimage " />
+5						<div class="book-block-title" itemprop="name">
+G				C# 6 and .NET Core 1.0: Modern Cross-Platform Development			</div>
+b			<div class="book-block-price " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+-				<meta itemprop="price" content="35.99"/>
+3				<meta itemprop="priceCurrency" content="EUR"/>
+				√¢¬Ç¬¨ 35.99			</div>
+$			<div class="book-block-overlay">
+<				<a href="/application-development/c-6-and-net-core-10">
+H					<div class="book-block-one-liner ellipsis" itemprop="description">
+Å						<div>Create powerful cross-platform applications using C# 6, .NET Core 1.0, ASP.NET Core 1.0, and Visual Studio 2015</div>
+					</div>
+;                    <div class="feefo-review-star-rating">
+£                        <div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star half-star "></div><img src='//dz13w8afd47il.cloudfront.net/sites/all/themes/packt_v4/images/feefo-logo-simple.png' class='left simple-feefo-logo' />                    </div>
+					</a>
+&				<div class="book-block-buttons ">
+w											<button type="submit" nid="24908" action="/add_to_cart/24907" class="book-block-buy  ">√¢¬Ç¬¨35.99</button>
+									</div>
+
+			</div>
+			</div>
+	</div>
+									
+		
+Ó	<div class="book-block-outer  book-block-position-3" itemscope itemtype="http://schema.org/Product" data-product="true" data-product-id="23853" data-product-position="9" data-product-price="35.99" data-product-title="Android Programming for Beginners" data-product-type="books" data-product-brand="Packt Publishing" data-product-category="Application Development">
+		<div class="book-block">
+'			<div class="book-block-icon-books">
+
+			</div>
+							<noscript>
+å					<img src="//d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781785883262.png" class="bookimage "  />
+				</noscript>
+π				<img src="/sites/default/files/blank.gif" data-original="//d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781785883262.png" class="bookimage " />
+5						<div class="book-block-title" itemprop="name">
+/				Android Programming for Beginners			</div>
+b			<div class="book-block-price " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+-				<meta itemprop="price" content="35.99"/>
+3				<meta itemprop="priceCurrency" content="EUR"/>
+				√¢¬Ç¬¨ 35.99			</div>
+$			<div class="book-block-overlay">
+F				<a href="/application-development/android-programming-beginners">
+H					<div class="book-block-one-liner ellipsis" itemprop="description">
+Æ						<div>Learn Android application development with this accessible tutorial that takes you through Android and Java programming with practical and actionable steps.</div>
+					</div>
+;                    <div class="feefo-review-star-rating">
+£                        <div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star half-star "></div><img src='//dz13w8afd47il.cloudfront.net/sites/all/themes/packt_v4/images/feefo-logo-simple.png' class='left simple-feefo-logo' />                    </div>
+					</a>
+&				<div class="book-block-buttons ">
+w											<button type="submit" nid="23853" action="/add_to_cart/23851" class="book-block-buy  ">√¢¬Ç¬¨35.99</button>
+									</div>
+
+			</div>
+			</div>
+	</div>
+									
+		
+Ò	<div class="book-block-outer  book-block-position-2 book-block-position-5" itemscope itemtype="http://schema.org/Product" data-product="true" data-product-id="23154" data-product-position="10" data-product-price="32.99" data-product-title="Practical DevOps" data-product-type="books" data-product-brand="Packt Publishing" data-product-category="Networking & Servers">
+ 		<div class="book-block last">
+'			<div class="book-block-icon-books">
+
+			</div>
+							<noscript>
+å					<img src="//d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781785882876.png" class="bookimage "  />
+				</noscript>
+π				<img src="/sites/default/files/blank.gif" data-original="//d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781785882876.png" class="bookimage " />
+5						<div class="book-block-title" itemprop="name">
+				Practical DevOps			</div>
+b			<div class="book-block-price " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+-				<meta itemprop="price" content="32.99"/>
+3				<meta itemprop="priceCurrency" content="EUR"/>
+				√¢¬Ç¬¨ 32.99			</div>
+$			<div class="book-block-overlay">
+8				<a href="/networking-and-servers/practical-devops">
+H					<div class="book-block-one-liner ellipsis" itemprop="description">
+r						<div>Harness the power of DevOps to boost your skill set and make your IT organization perform better</div>
+					</div>
+;                    <div class="feefo-review-star-rating">
+£                        <div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star active-star "></div><div class="book-block-star half-star "></div><img src='//dz13w8afd47il.cloudfront.net/sites/all/themes/packt_v4/images/feefo-logo-simple.png' class='left simple-feefo-logo' />                    </div>
+					</a>
+&				<div class="book-block-buttons ">
+w											<button type="submit" nid="23154" action="/add_to_cart/23153" class="book-block-buy  ">√¢¬Ç¬¨32.99</button>
+									</div>
+
+			</div>
+			</div>
+	</div>
+
+			</div>
+'	<div id="featured-books-clear"></div>
+</div></div>
+</div>
+</div>
+	  </div>
+</div>
+					 								</div>
+						<!-- /#content -->
+					
+									</div>
+
+			</div>
+
+									
+						
+			<!-- #footer -->
+2			<div id="footer" class="region region-footer">
+#				<div class="section-inner cf">
+%					<div class="footer-main-block">
+)						<div class="footer-section-inner">
+"														<h2>Contact Us</h2>
+ﬂ							<p>Get in touch&nbsp;<a href="/books/info/packt/contact-us">here</a>&nbsp;<span style="font-family: Calibri, sans-serif; font-size: 11pt; line-height: 115%;">if you have any queries or issues.</span></p>						</div>
+					</div>
+9					<div class="footer-main-block middle-footer-block">
+)						<div class="footer-section-inner">
+&														<h2>Help & Support</h2>
+ß							<p class="MsoNormal">Click&nbsp;<a href="/books/info/packt/faq">here</a>&nbsp;for FAQs, order information, T&amp;Cs, errata and code downloads.</p>						</div>
+					</div>
+%					<div class="footer-main-block">
+)						<div class="footer-section-inner">
+'														<h2>Alerts & Offers</h2>
+·							<p class="MsoNormal">Sign up to our emails for regular updates, bespoke offers, exclusive discounts and great free content.</p>							<form  accept-charset="UTF-8" method="post" id="packt-v3-subscribtion-dotd-form-1">
+<div><div class="form-item">
+ 
+</div>
+1<div class="form-item" id="edit-mail-1-wrapper">
+ê <input type="text" maxlength="128" name="mail" id="edit-mail-1" size="60" value="" placeholder="Enter your email address" class="form-text" />
+</div>
+S<input type="hidden" name="newsletter_id" id="edit-newsletter-id-1" value="60"  />
+Z<input type="submit" name="op" id="edit-submit-5" value="Submit"  class=" form-submit" />
+á<input type="hidden" name="form_build_id" id="form-bad8056094514e680edbe6820f89461a" value="form-bad8056094514e680edbe6820f89461a"  />
+|<input type="hidden" name="form_id" id="edit-packt-v3-subscribtion-dotd-form-1" value="packt_v3_subscribtion_dotd_form"  />
+
+</div></form>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- /#footer -->
+
+			<!-- #footer-bottom -->
+@			<div id="footer-bottom" class="region region-footer-bottom">
+#				<div class="section-inner cf">
+'					<div class="footer-bottom-block">
+-						<div class="footer-bottom-block-left">
+(							&copy; Packt Publishing Limited.
+							<br />
+							All Rights Reserved
+						</div>
+					</div>
+9					<div class="footer-bottom-block footer-contact-us">
+<						<a href="/books/info/packt/contact-us">Contact Us</a>
+					</div>
+'					<div class="footer-bottom-block">
+E						View our <a href="/books/info/packt/cookies">Cookie Policy</a>
+					</div>
+'					<div class="footer-bottom-block">
+A						Our <a href="/books/info/packt/privacy">Privacy Policy</a>
+					</div>
+'					<div class="footer-bottom-block">
+u						<a target="_blank" href="http://www.linkedin.com/company/packt-publishing" class="footer-social linkedin"></a>
+_						<a target="_blank" href="http://twitter.com/packtpub" class="footer-social twitter"></a>
+e						<a target="_blank" href="http://www.facebook.com/packtpub" class="footer-social facebook"></a>
+o						<a target="_blank" href="https://plus.google.com/112328881995125817822" class="footer-social gplus"></a>
+j						<a target="_blank" href="https://www.youtube.com/user/packt1000" class="footer-social youtube"></a>
+					</div>
+				</div>
+
+			</div>
+			<!-- /#footer-bottom -->
+			<script>
+			(function (w,i,d,g,e,t,s)
+			{w[d] = w[d]||[];t= i.createElement(g); t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s); }
+Y			)(window, document, '_gscq','script','//widgets.getsitecontrol.com/18511/script.js');
+			</script>
+			
+						
+						
+			</div>
+		<!-- /#page -->
+		
+#		<div id="content-overlay"></div>
+		
+				
+		</body>
+</html>
+

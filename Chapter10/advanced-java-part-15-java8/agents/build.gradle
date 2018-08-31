@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+jar {
+    baseName = 'packt-ch10-agents'
+    version =  '1.0.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+sourceCompatibility = 1.9
+targetCompatibility = 1.9
+
+dependencies {
+    compile("org.javassist:javassist:3.19.0-GA")
+}
+

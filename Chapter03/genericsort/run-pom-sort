@@ -1,0 +1,3 @@
+#! /bin/bash
+java -cp Main/target/Main-1.0.0-SNAPSHOT.jar:SortInterface/target/SortInterface-1.0.0-SNAPSHOT.jar:quick/target/quick-1.0.0-SNAPSHOT.jar:SortSupportClasses/target/SortSupportClasses-1.0.0-SNAPSHOT.jar packt.java189fundamentals.ch03.main.Main pom.xml
+# -mp SortInterface/target/SortInterface-1.0.0-SNAPSHOT.jar:quick/target/quick-1.0.0-SNAPSHOT.jar
