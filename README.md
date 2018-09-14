@@ -64,7 +64,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 ## Get to Know the Author
 **Peter Verhas**
-Peter Verhas is a senior software engineer and software architect with an electrical engineering and economics background from TU Budapest (MsC) and PTE Hungary (MBA), and he also studied at TU Delft and TU Vienna. He created his first programs in 1979, and since then he has authored several open source programs. He has worked in several positions in the telecommunications and finance industries. Peter works for EPAM Systems in Switzerland, participating in software development projects at various customer sites, and he supports talent acquisition by interviewing candidates, running training programs for developers, and internal mentoring programs. He regularly talks at various international conferences.
+is a senior software engineer and software architect with an electrical engineering and economics background from TU Budapest (MsC) and PTE Hungary (MBA), and he also studied at TU Delft and TU Vienna. He created his first programs in 1979, and since then he has authored several open source programs. He has worked in several positions in the telecommunications and finance industries. Peter works for EPAM Systems in Switzerland, participating in software development projects at various customer sites, and he supports talent acquisition by interviewing candidates, running training programs for developers, and internal mentoring programs. He regularly talks at various international conferences.
 
 ## Other books by the authors
 * [Mastering Java 9](https://www.packtpub.com/application-development/mastering-java-9)
